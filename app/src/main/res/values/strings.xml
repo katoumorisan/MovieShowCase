@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieShowCase</string>
+
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="image_with_picasso_library">image_with_picasso_library</string>
+    <string name="search_error">search error</string>
+</resources>
