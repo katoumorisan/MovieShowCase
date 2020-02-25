@@ -144,6 +144,7 @@ public class MainActivity extends AppCompatActivity implements ItemAdapter.OnIte
                     snackbar.setAction("YES", new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
+                            swipeRefreshLayout.setRefreshing(true);
                             //搜索下一页
                             onSearch(API_KEY,String.valueOf(++pageNum),keyWord);
                             snackbar.dismiss();
